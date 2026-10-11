@@ -1,1 +1,3 @@
-
+User-agent: *
+Host: readthai.website.yandexcloud.net
+Sitemap: https://readthai.website.yandexcloud.net/sitemap.xml
