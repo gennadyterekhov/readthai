@@ -21,6 +21,6 @@ Thai alphabet has a lot of letters. But we don't need to know them all to start.
 
   words:
   ร้าน - store
-
+  กา - crow, teapot
 
 </template>

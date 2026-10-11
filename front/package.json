@@ -15,7 +15,8 @@
     "@nuxt/ui": "2.21.0",
     "@nuxtjs/color-mode": "3.5.2",
     "@nuxtjs/tailwindcss": "6.13.1",
-    "nuxt": "^3.15.2",
+    "better-sqlite3": "^13.0.3",
+    "nuxt": "^4.6.1",
     "sass": "^1.77.0",
     "vue": "latest",
     "vue-router": "latest",
@@ -23,6 +24,6 @@
   },
   "packageManager": "pnpm@9.5.0+sha1.8c155dc114e1689d18937974f6571e0ceee66f1d",
   "devDependencies": {
-    "vite-plugin-vuetify": "^2.0.0"
+    "vite-plugin-vuetify": "^2.1.3"
   }
 }

@@ -1,9 +1,21 @@
 <script setup>
+import {queryCollection} from "@nuxt/content/nitro";
 
+const {data: home} = await useAsyncData(() => queryCollection('content').path('/').first())
+
+useSeoMeta({
+  title: home.value?.title,
+  description: home.value?.description
+})
 </script>
 
 <template>
-<!--  choose levels -->
+
+
+  <!--  <ContentRenderer v-if="home" :value="home" />-->
+  <!--  <div v-else>Home not found-->
+  <!--  </div>-->
+
 
   <ul>
     <li>
