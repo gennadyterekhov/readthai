@@ -5,3 +5,4 @@ front/node_modules
 .nuxt
 .output
 node_modules
+dist
