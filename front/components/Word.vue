@@ -7,8 +7,9 @@ const props = defineProps({
   ipa: {type: String, required: false, default: ''},
 })
 
-const wordTranslationFromDict = dictionary.words[props.w] || ''
-const wordIpaFromDict = ipas.words[props.w] || ''
+const wordTranslationFromDict = dictionary.words[props.w]?.translation || ''
+const wordIpaFromDict = dictionary.words[props.w]?.ipa || ''
+// const wordIpaFromDict = ipas.words[props.w] || ''
 </script>
 
 <template>
