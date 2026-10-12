@@ -45,6 +45,7 @@ export const ipas = {
     นาก: 'naːk',
     ราก: 'raːk',
     กาก: 'kaːk',
+    อา: 'aː',
     อาน: 'aːn',
 
     กอ: 'kɔː',
