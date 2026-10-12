@@ -32,11 +32,6 @@ const nextPost = computed(() => {
   return null
 })
 
-
-
-
-
-
 useSeoMeta({
   title: currentPost?.value?.title,
   description: currentPost?.value?.description
