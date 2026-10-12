@@ -32,6 +32,11 @@ const nextPost = computed(() => {
   return null
 })
 
+
+
+
+
+
 useSeoMeta({
   title: currentPost?.value?.title,
   description: currentPost?.value?.description
@@ -42,6 +47,9 @@ useSeoMeta({
   <div>
     <div v-for="post in posts" :key="post.id">
       <div v-if="post.path.includes(lessonNumber)">
+
+        <h2>{{post.title}}</h2>
+        <br>
         <ContentRenderer v-if="post" :value="post" />
       </div>
     </div>
