@@ -1,7 +1,7 @@
 const thaiToIpa = [
   {
     "_meta": {
-      "name": "thai__to_ipa_map",
+      "name": "thai_to_ipa_map",
       "select_option_inner_text": "Thai to IPA",
       "from_maps_json": true,
       "is_case_sensitive": false,
