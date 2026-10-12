@@ -36,5 +36,18 @@ export const dictionary = {
 
     แอ: {ipa: 'ɛː', translation: 'small',},
 
+    กะ: {ipa: 'ka', translation: 'to measure',},
+    นะ: {ipa: 'na', translation: 'expresses a mild question',},
+    นัก: {ipa: 'nak', translation: 'many',},
+    รัก: {ipa: 'rak', translation: 'to love',},
+    งาม: {ipa: 'ŋaːm', translation: 'beautiful',},
+    ยา: {ipa: 'jaː', translation: 'medicine',},
+
+
+    ที: {ipa: 'tʰiː', translation: 'chance',},
+    ทิว: {ipa: 'tʰiw', translation: 'row',},
+    ลาม: {ipa: 'laːm', translation: 'to spread',},
+    ลาว: {ipa: 'laːw', translation: 'Laos',},
+    //ลาม
   },
 }

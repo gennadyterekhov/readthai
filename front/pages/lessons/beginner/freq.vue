@@ -10,9 +10,11 @@
   • ร (Ro Rua) — 0.0428 (R sound)
   • อ (O Ang) — 0.0321 (O / vowel carrier)
   • ก (Ko Kai) — 0.0311 (K / G sound)
+
   • ง (Ngo Ngu) — 0.0293 (NG sound)
   • ม (Mo Ma) — 0.0258 (M sound)
   • ย (Yo Yak) — 0.0213 (Y sound)
+
   • ล (Lo Ling) — 0.0206 (L sound)
   • ว (Wo Waen) — 0.0195 (W sound)
   • ท (Tho Thahan) — 0.0178 (Th / T sound)
@@ -29,6 +31,7 @@
 
   • า (Sara Aa) — 0.0515 (Long "Ah" vowel)
   • เ (Sara E) — 0.0306 ("E" vowel)
+
   • ่ (Mai Ek) — 0.0282 (1st tone mark)
   • ั (Mai Han-Akat) — 0.0255 (Short "A" vowel)
   • ี (Sara Ii) — 0.0211 (Long "Ee" vowel)
