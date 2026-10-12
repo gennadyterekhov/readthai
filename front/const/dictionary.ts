@@ -33,5 +33,8 @@ export const dictionary = {
     แกน: {ipa: 'kɛːn', translation: 'axis',},
     แร: {ipa: 'rɛː', translation: 'to write',},
     แรก: {ipa: 'rɛːk', translation: 'first, to start',},
+
+    แอ: {ipa: 'ɛː', translation: 'small',},
+
   },
 }

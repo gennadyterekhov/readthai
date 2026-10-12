@@ -1,6 +1,6 @@
 <script setup>
 import WiktionaryLink from "~/components/WiktionaryLink.vue";
-import {dictionary,ipas} from "~/const/dictionary.ts";
+import {dictionary} from "~/const/dictionary.ts";
 
 const props = defineProps({
   w: {type: String, required: true},
