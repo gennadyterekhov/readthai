@@ -9,8 +9,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <PlaySound v-if="p" :src="`/sounds/${p}.ogg`" :label="`🔊 Listen ${p}`" ></PlaySound>
-  <PlaySound v-if="phoneme"  :src="`/sounds/${phoneme}.ogg`" :label="`🔊 Listen ${phoneme}`" ></PlaySound>
+  <PlaySound v-if="p" :src="`/sounds/${p}.ogg`" :label="`🔊`" ></PlaySound>
+  <PlaySound v-if="phoneme"  :src="`/sounds/${phoneme}.ogg`" :label="`🔊`" ></PlaySound>
 </template>
 
 <style scoped>
