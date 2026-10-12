@@ -1,7 +1,6 @@
 <script setup>
 import WiktionaryLink from "~/components/WiktionaryLink.vue";
 import {dictionary,ipas} from "~/const/dictionary.ts";
-import TransliteratedWord from "~/components/TransliteratedWord.vue";
 
 const props = defineProps({
   w: {type: String, required: true},
@@ -14,14 +13,12 @@ const wordIpaFromDict = ipas.words[props.w] || ''
 
 <template>
   <WiktionaryLink :word="w" />
-&nbsp;
-  {{wordIpaFromDict}}
-<!--  <span v-if="ipa">/{{ipa}}/</span>&nbsp;-->
-<!--  <TransliteratedWord v-else :w="w" />&nbsp;-->
+  &nbsp; <code class="custom-pre">/{{wordIpaFromDict}}/</code>&nbsp;
 
   {{ wordTranslationFromDict }}
   <br>
 </template>
 
 <style scoped>
+
 </style>
