@@ -29,7 +29,7 @@ const isRevealed = ref(false)
   <div class="spoiler-image">
     <!-- The Button -->
     <button
-      v-if="!isRevealed"
+      v-show="!isRevealed"
       class="reveal-button"
       @click="isRevealed = true"
     >
@@ -37,7 +37,7 @@ const isRevealed = ref(false)
     </button>
 
     <!-- The Hidden Image -->
-    <div v-if="isRevealed" class="image-container">
+    <div v-show="isRevealed" class="image-container">
       <img :src="src" :alt="alt" @click="isRevealed = false" />
       <p v-if="clickToHide" class="hide-hint">(Click image to hide)</p>
     </div>

@@ -78,8 +78,13 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/seo'
   ],
+  site: {
+    url: 'https://readthai.mallonesi.ru/',
+    name: 'ReadThai',
+  },
   build: {
     transpile: ['vuetify'],
   },
