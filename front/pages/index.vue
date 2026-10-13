@@ -3,7 +3,8 @@
 const {data: home} = await useAsyncData(() => queryCollection('content').path('/').first())
 useSeoMeta({
   title: home.value?.title,
-  description: home.value?.description
+  description: home.value?.description,
+  canonical: 'https://readthai.mallonesi.ru/',
 })
 </script>
 
